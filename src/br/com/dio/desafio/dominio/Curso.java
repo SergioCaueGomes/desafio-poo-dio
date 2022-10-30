@@ -9,6 +9,9 @@ public class Curso {
         return titulo;
     }
 
+    public Curso() {
+    }
+
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
