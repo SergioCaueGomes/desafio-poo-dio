@@ -51,7 +51,7 @@ public class Bootcamp {
         return conteudos;
     }
 
-    public void setConteudos(Set<Conteudo> conteudos) {
+    public void setConteudos() {
         this.conteudos = conteudos;
     }
 

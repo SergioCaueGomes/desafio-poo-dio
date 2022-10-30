@@ -19,7 +19,7 @@ public class Dev {
         Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst();
         if (conteudo.isPresent()) {
             this.conteudosConcluidos.add(conteudo.get());
-            this.conteudosConcluidos.remove(conteudo.get());
+            this.conteudosInscritos.remove(conteudo.get());
         } else {
             System.err.println("Você não está inscrito em nenhum conteúdo!");
         }
